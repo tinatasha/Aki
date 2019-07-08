@@ -12,11 +12,11 @@ export class VoteComponent implements OnInit {
    tdown = 0;
 
    thumbUp(){
-     this.tup = this.tup + 1;//adds one on mouse click
+     this.tup = this.tup + 1;
    }
 
    thumbDown(){
-     this.tdown = this.tdown + 1;//adds one per mouse click
+     this.tdown = this.tdown + 1;
    }
 
   constructor() { }
