@@ -9,11 +9,11 @@ import { Quote } from '../quote';
 export class QuoteComponent implements OnInit {
 
   quotes:Quote [] = [
-    new Quote(1, 'Michael J. Fox', 'Family is not an important thing.Its everything.',new Date(2019,3,14)),
-    new Quote(2,'Oscar Wilde','Women are made to be loved and not understood.',new Date(2019,3,14)),
-    new Quote(3,'Mother Teresa','Be faithful in small things because it is in them that your strength lies.',new Date(2019,3,14)),
-    new Quote(4,'Albert Einstein','Only two ways to live life. One is as though nothing is a miracle. The other is as though everything is a miracle.',new Date(2019,3,14)),
-    new Quote(5,'Mark Crow','Know when to cry, know when to laugh, know when to be silent.',new Date(2019,3,14)),
+    new Quote(1, 'NF', 'Happiness is just a moment, joy is something you actually carry around with you...',new Date(2019,3,14)),
+    new Quote(2,'NF','Happiness is just a moment, joy is something you actually carry around with you...',new Date(2019,3,14)),
+    new Quote(3,'NF','Happiness is just a moment, joy is something you actually carry around with you...',new Date(2019,3,14)),
+    new Quote(4,'NF','Happiness is just a moment, joy is something you actually carry around with you...',new Date(2019,3,14)),
+    new Quote(5,'NF','Happiness is just a moment, joy is something you actually carry around with you...',new Date(2019,3,14)),
   ];
 
   toggleDetails(index){

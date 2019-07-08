@@ -8,10 +8,9 @@
     list-style-type: none;
   }
   .row{
-    background-image: url('https://images.pexels.com/photos/1841841/pexels-photo-1841841.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    color: aliceblue;
+    background-image: url('https://images.pexels.com/photos/269810/pexels-photo-269810.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
     margin: 2px;
-  height : 100%;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
+    width:100%;
+    background-position-y: 100%;
   }
