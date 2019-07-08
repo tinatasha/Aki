@@ -1,0 +1,23 @@
+<div class="container-fluid">
+    <div class="top" style="text-align:center">
+      <h1>Quotella</h1>
+      <img  class="one"src="https://i.imgur.com/DnfaRoF.jpg" alt="" width="100px" height="80px">
+      <hr>
+    </div>
+    <div class="row">
+      <div class="col-md-7">
+        <h4>My Quotes</h4>
+        <ul>
+          <div *ngFor='let quote of quotes;let i = index'>
+               <li>{{quote.name}} </li>
+              <button (click)='toggleDetails(i)' class="btn btn-outline-primary">See Quote</button>
+         <app-quote-detail *ngIf='quote.showDescription' [quote]='quote' (isComplete) = 'deleteGoal($event,i)'></app-quote-detail>
+         </div>
+        </ul>
+      </div>
+      <div class="col-md-5">
+        <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
+      </div>
+    </div>
+      <p *ngIf='quotes.length > 5'>Your quotes are too many quotes.</p>
+  </div>
