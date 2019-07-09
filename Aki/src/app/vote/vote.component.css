@@ -1,11 +1,11 @@
 .up{
-    width: 150px;
+    width: 155px;
     border-radius: 25px;
-    background-color: yellow;
+    background-color: transparent;
   }
   .down{
-      width: 150px;
+      width: 155px;
       border-radius: 25px;
-      background-color: yellow;
+      background-color: transparent;
   }
   
