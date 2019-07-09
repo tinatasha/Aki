@@ -1,4 +1,4 @@
-# PIZZA PALACE
+# "QUOTELLA
 #### This is a web application that enables a user to post quotes, upvote and downvote it and to check the time of submission.
 #### By **Tina Tasha**
 
